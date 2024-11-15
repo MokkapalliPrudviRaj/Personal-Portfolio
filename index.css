@@ -1,0 +1,1112 @@
+ /* start of desktop menu */
+ .Dheader {
+     display: none;
+ }
+
+ /* anchor tag text color */
+
+ .anchartag {
+     color: #000;
+ }
+
+ .anchartag1 {
+     color: whitesmoke;
+ }
+
+
+ .container {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ @media (min-width:1081px) {
+     .logo-1-icon {
+         width: 39.9px;
+         position: relative;
+         height: 40px;
+         overflow: hidden;
+         flex-shrink: 0;
+     }
+
+     .personal {
+         position: relative;
+         letter-spacing: -0.02em;
+         line-height: 24px;
+         text-transform: capitalize;
+     }
+
+     .container {
+         align-self: stretch;
+         overflow: hidden;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     .Dlogo {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-start;
+         gap: 12px;
+     }
+
+     .about-me1 {
+         position: relative;
+         letter-spacing: -0.02em;
+         line-height: 24px;
+         text-transform: capitalize;
+         font-weight: 600;
+     }
+
+     .about-me {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .about-me4 {
+         width: 98px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .about-me8 {
+         width: 122px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .taskbaar {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-start;
+         gap: 32px;
+     }
+
+     .resume {
+         position: relative;
+         letter-spacing: 0.02em;
+         line-height: 24px;
+         font-weight: 600;
+     }
+
+     .download-icon {
+         width: 30px;
+         position: relative;
+         height: 30px;
+         overflow: hidden;
+         flex-shrink: 0;
+     }
+
+     .button {
+         border-radius: 4px;
+         background-color: #000;
+         height: 56px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: center;
+         padding: 16px 20px;
+         box-sizing: border-box;
+         gap: 8px;
+         color: #fff;
+     }
+
+     .Dcontainer {
+         align-self: stretch;
+         overflow: hidden;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+         transition: all 500ms ease;
+     }
+
+     .Dheader {
+         width: 100%;
+         position: relative;
+         overflow: hidden;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: flex-start;
+         padding: 24px 80px;
+         box-sizing: border-box;
+         text-align: left;
+         font-size: 20px;
+         color: #000;
+         font-family: Sora;
+     }
+ }
+
+ /* end of desktop menu */
+
+ .header {
+     display: none;
+ }
+
+ @media (max-width:1080px) {
+     .logo-1-icon {
+         width: 39.9px;
+         position: relative;
+         height: 40px;
+         overflow: hidden;
+         flex-shrink: 0;
+     }
+
+     .personal {
+         position: relative;
+         letter-spacing: -0.02em;
+         line-height: 24px;
+         text-transform: capitalize;
+     }
+
+     .logo {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-start;
+         gap: 12px;
+     }
+
+     .menu-icon {
+         width: 36px;
+         position: relative;
+         height: 36px;
+         overflow: hidden;
+         flex-shrink: 0;
+     }
+
+     .container {
+         align-self: stretch;
+         overflow: hidden;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+     }
+
+     .header {
+         display: none;
+         align-self: stretch;
+         overflow: hidden;
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         justify-content: flex-start;
+         padding: 24px 80px;
+         font-size: 20px;
+     }
+ }
+
+ .hello-iam {
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 32px;
+ }
+
+ .prudvi-raj {
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 32px;
+     font-weight: 800;
+ }
+
+ .hello-iam-parent {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 16px;
+ }
+
+ .developer {
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 32px;
+     font-weight: 800;
+     color: transparent;
+     -webkit-text-stroke: 1.4px #000;
+ }
+
+ .frame-parent {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 12px;
+ }
+
+ .im-a-frontend {
+     align-self: stretch;
+     position: relative;
+     font-size: 16px;
+     letter-spacing: 0.02em;
+     line-height: 24px;
+     color: #71717a;
+     text-align: justify;
+ }
+
+ .iconlinkedin {
+     width: 48px;
+     position: relative;
+     height: 48px;
+ }
+
+ .github-icon {
+     width: 48px;
+     position: relative;
+     height: 48px;
+     overflow: hidden;
+     flex-shrink: 0;
+ }
+
+ .iconlinkedin-parent {
+     width: 120px;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 4px 0px;
+     box-sizing: border-box;
+     gap: 24px;
+ }
+
+ .column {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 32px;
+     min-width: 300px;
+ }
+
+ .column-child {
+     width: 495.2px;
+     position: absolute;
+     margin: 0 !important;
+     top: 0px;
+     left: calc(50% - 324.11px);
+     height: 332px;
+     overflow: hidden;
+     flex-shrink: 0;
+     z-index: 0;
+ }
+
+ .column1 {
+     flex: 1;
+     height: 332px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0px;
+     box-sizing: border-box;
+     position: relative;
+     min-width: 300px;
+ }
+
+ .container1 {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+     align-content: flex-start;
+     gap: 48px;
+     min-width: 332px;
+ }
+
+ .hero-section {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 60px 80px;
+ }
+
+ .icon-typescript {
+     width: 56px;
+     position: relative;
+     height: 56px;
+     overflow: hidden;
+     flex-shrink: 0;
+ }
+
+ .javascript {
+     align-self: stretch;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+ }
+
+ .skills1 {
+     width: 160px;
+     border-radius: 4px;
+     background-color: #fff;
+     border: 2px solid #000;
+     box-sizing: border-box;
+     height: 186px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 24px;
+     gap: 32px;
+ }
+
+ .icon-javscript {
+     width: 56px;
+     position: relative;
+     height: 56px;
+ }
+
+ .skills-parent {
+     flex: 1;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     gap: 20px;
+     min-width: 173px;
+     max-width: 348px;
+ }
+
+ .icons-html {
+     width: 56px;
+     position: relative;
+     height: 56px;
+     overflow: hidden;
+     flex-shrink: 0;
+     object-fit: cover;
+ }
+
+ .ui1 {
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+     font-weight: 800;
+ }
+
+ .ui {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 4px 3px;
+ }
+
+ .javascript5 {
+     align-self: stretch;
+     position: relative;
+     font-size: 20px;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+ }
+
+ .ux {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 4px;
+ }
+
+ .frame-div {
+     flex: 1;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     gap: 20px;
+     min-width: 173px;
+     max-width: 348px;
+     font-size: 32px;
+ }
+
+ .column3 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     padding: 20px 0px;
+     gap: 20px;
+     text-align: center;
+     font-size: 20px;
+ }
+
+ .container2 {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 20px;
+ }
+
+ .infosys-icon {
+     width: 32px;
+     position: relative;
+     height: 32px;
+     overflow: hidden;
+     flex-shrink: 0;
+ }
+
+ .lead-software-engineer {
+     flex: 1;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+     font-weight: 600;
+ }
+
+ .infosys-parent {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 30px;
+ }
+
+ .nov-2019- {
+     position: relative;
+     font-size: 16px;
+     letter-spacing: -0.02em;
+     line-height: 20px;
+     font-weight: 600;
+     color: #d4d4d8;
+     text-align: center;
+ }
+
+ .frame-group {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 30px;
+ }
+
+ .as-a-senior {
+     align-self: stretch;
+     position: relative;
+     font-size: 16px;
+     letter-spacing: 0.02em;
+     line-height: 24px;
+     color: #d4d4d8;
+     text-align: justify;
+ }
+
+ .experience1 {
+     align-self: stretch;
+     border-radius: 10px;
+     background-color: #27272a;
+     border: 1px solid #71717a;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 30px 24px;
+     gap: 28px;
+ }
+
+ .accenture-icon {
+     width: 32px;
+     position: relative;
+     height: 32px;
+     object-fit: cover;
+ }
+
+ .lead-software-engineer1 {
+     flex: 1;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+     font-weight: 600;
+     white-space: pre-wrap;
+ }
+
+ .experience2 {
+     align-self: stretch;
+     border-radius: 10px;
+     border: 1px solid #71717a;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 30px 24px;
+     gap: 28px;
+ }
+
+ .column5 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     font-size: 20px;
+ }
+
+ .my-experience {
+     align-self: stretch;
+     background-color: #000;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 60px 80px;
+     color: #fff;
+ }
+
+ .column-item {
+     width: 336.2px;
+     position: relative;
+     height: 366px;
+     opacity: 0.98;
+ }
+
+ .column6 {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 4px 0px;
+     box-sizing: border-box;
+     min-width: 300px;
+ }
+
+ .sub-column {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 20px 0px;
+     gap: 16px;
+ }
+
+ .im-a-passionate {
+     align-self: stretch;
+     position: relative;
+     letter-spacing: 0.02em;
+     line-height: 24px;
+ }
+
+ .sub-column1 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 20px;
+     text-align: justify;
+     font-size: 16px;
+     color: #71717a;
+ }
+
+ .container4 {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     gap: 20px;
+     min-width: 348px;
+ }
+
+ .row {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0px;
+     gap: 16px;
+ }
+
+ .image-2-icon {
+     flex: 1;
+     position: relative;
+     border-radius: 18px;
+     max-width: 100%;
+     overflow: hidden;
+     height: 318px;
+     object-fit: none;
+ }
+
+ .image {
+     flex: 1;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     min-width: 300px;
+ }
+
+ .div {
+     align-self: stretch;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 28px;
+     font-weight: 800;
+ }
+
+ .personal-portfolio {
+     align-self: stretch;
+     position: relative;
+     font-size: 20px;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+     font-weight: 800;
+ }
+
+ .read-more-icon {
+     width: 20px;
+     position: relative;
+     height: 20px;
+ }
+
+ .parent {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 28px;
+     min-width: 300px;
+ }
+
+ .row2 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     padding: 20px 0px;
+     box-sizing: border-box;
+     gap: 40px;
+     min-width: 348px;
+ }
+
+ .image-icon {
+     flex: 1;
+     position: relative;
+     border-radius: 18px;
+     max-width: 100%;
+     overflow: hidden;
+     height: 397px;
+     object-fit: none;
+ }
+
+ .row3 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     gap: 40px;
+     min-width: 348px;
+ }
+
+ .image-1-icon {
+     flex: 1;
+     position: relative;
+     border-radius: 18px;
+     max-width: 100%;
+     overflow: hidden;
+     height: 396px;
+     object-fit: none;
+ }
+
+ .row1 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 40px;
+     font-size: 24px;
+ }
+
+ .your-name {
+     flex: 1;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 20px;
+ }
+
+ .your-name-wrapper {
+     align-self: stretch;
+     border-radius: 4px;
+     border: 1.4px solid #000;
+     box-sizing: border-box;
+     height: 56px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 16px 24px;
+ }
+
+ .component-1 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+
+ .how-can-i {
+     align-self: stretch;
+     flex: 1;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 20px;
+ }
+
+ .how-can-i-help-wrapper {
+     align-self: stretch;
+     border-radius: 4px;
+     border: 1.4px solid #000;
+     box-sizing: border-box;
+     height: 140px;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 16px 24px;
+ }
+
+ .resume {
+     position: relative;
+     letter-spacing: 0.02em;
+     line-height: 20px;
+     font-weight: 600;
+ }
+
+ .button {
+     border-radius: 4px;
+     background-color: #000;
+     height: 48px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 12px 16px;
+     box-sizing: border-box;
+     color: #fff;
+ }
+
+ .row-inner {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 4px 0px;
+ }
+
+ .row5 {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     padding: 20px 0px;
+     box-sizing: border-box;
+     gap: 20px;
+     min-width: 300px;
+ }
+
+ .something-special-wrapper {
+     align-self: stretch;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+ }
+
+ .frame-parent1 {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: center;
+     gap: 12px;
+ }
+
+ .i-seek-to {
+     align-self: stretch;
+     position: relative;
+     font-size: 16px;
+     letter-spacing: 0.02em;
+     line-height: 24px;
+     color: #71717a;
+ }
+
+ .mokkapalliprudvirajgmailcom {
+     align-self: stretch;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: lowercase;
+ }
+
+ .mokkapalliprudvirajgmailcom-wrapper {
+     align-self: stretch;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: 20px;
+ }
+
+ .row6 {
+     flex: 1;
+     height: 276px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 20px 0px;
+     box-sizing: border-box;
+     gap: 32px;
+     min-width: 300px;
+     font-size: 28px;
+     color: #000;
+ }
+
+ .container6 {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-content: center;
+     gap: 28px;
+     min-width: 348px;
+ }
+
+ .contact-info {
+     align-self: stretch;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 60px 80px;
+     font-size: 16px;
+     color: #71717a;
+ }
+
+ .logo-1-icon1 {
+     width: 27.9px;
+     position: relative;
+     height: 28px;
+     overflow: hidden;
+     flex-shrink: 0;
+ }
+
+ .personal1 {
+     flex: 1;
+     position: relative;
+     letter-spacing: -0.02em;
+     line-height: 24px;
+     text-transform: capitalize;
+ }
+
+ .logo1 {
+     width: 139.9px;
+     height: 40px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     gap: 8px;
+ }
+
+ .logo-wrapper {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+ }
+
+ .personal-parent {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-end;
+     justify-content: center;
+     text-align: right;
+     font-size: 12px;
+ }
+
+ .footer {
+     align-self: stretch;
+     background-color: #000;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     padding: 24px 80px;
+     font-size: 20px;
+     color: #fff;
+ }
+
+ .boyresponsive {
+     width: 100%;
+     position: relative;
+     background-color: #fff;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     min-width: 500px;
+     max-width: 1440px;
+     text-align: left;
+     font-size: 28px;
+     color: #000;
+     font-family: Sora;
+ }
+
+
+ .project {
+     position: relative;
+ }
+
+ .contact-me {
+     position: relative;
+     text-align: left;
+ }
+
+ .resume {
+     position: relative;
+     letter-spacing: 0.02em;
+     line-height: 20px;
+     font-weight: 600;
+ }
+
+ .icon {
+     width: 15px;
+     position: relative;
+     height: 15px;
+ }
+
+ .download {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 8px;
+     gap: 12px;
+ }
+
+ .downlad-button {
+     width: 100%;
+     border-radius: 4px;
+     background-color: #ff0000;
+     height: 56px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 16px 20px;
+     box-sizing: border-box;
+     gap: 8px;
+     color: #fff;
+     margin: 10px 10px;
+ }
+
+ .menu-items {
+     height: 403px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 0px 32px;
+     box-sizing: border-box;
+     gap: 32px;
+     z-index: 0;
+ }
+
+ .close-icon {
+     width: 40px;
+     position: absolute;
+     margin: 0 !important;
+     top: 30px;
+     right: 30px;
+     height: 40px;
+     overflow: hidden;
+     flex-shrink: 0;
+     z-index: 1;
+ }
+
+ .navigation-menu {
+     top: 0%;
+     position: absolute;
+     background-color: #070917;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+     padding: 112px 80px;
+     box-sizing: border-box;
+     gap: 177px;
+     min-width: 500px;
+     width: 100%;
+     max-height: 150%;
+     text-align: center;
+     font-size: 24px;
+     color: #fff;
+     font-family: Poppins;
+ }
